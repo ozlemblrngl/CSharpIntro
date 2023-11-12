@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
 
-        //int, decimal, float, enum, boolean value types tır.
+        // int, decimal, float, enum, boolean value types tır.
         // bunların değeri stack'te tutulur.
         int sayi1 = 10;
         int sayi2 = 20;
@@ -56,7 +56,7 @@
         customer.FirstName = "Ahmet"; //Ahmet olur.
 
         // yukarıda Person person3 e customer'ı atadığımızdan Person base class'ındaki propert'ler çıkar.
-        //Customer class'ında yer alan CreditCard property'si çıkmaz.
+        // Customer class'ında yer alan CreditCard property'si çıkmaz.
         // person3'ün CreditCardNumber property'sini istiyorsak Customer class ı ile boxing yapmalıyız aşağıdaki gibi.
 
         Console.WriteLine(((Customer)person3).CreditCardNumber);
@@ -79,7 +79,7 @@
         public string LastName { get; set; }
     }
 
-    class Customer : Person // Person'ı  inherit eden class'tır.
+    class Customer : Person // Person'ı inherit eden class'tır.
     {
         public int CreditCardNumber { get; set; }
     }
