@@ -5,16 +5,16 @@
         // Constructor bir sınıfı new'lediğimiz zaman çalışan bir bloktur.
         // Yani bir class ilk kez çalıştığı zaman bir kere çalışır ve bir daha çalışmaz.
         // Yapıcı bloktur. Class'ı ilk kez çalıştırdığımız zaman çalışan bloktur.
-        // operasyon class'ları ve özellik Class'larının her ikisinde de kullanılır.
+        // operasyon class'ları ve özellik class'larının her ikisinde de kullanılır.
 
 
         // Customer customer = new Customer();
 
 
         // Yukarıda görüldüğü üzere new Customer() 'da parantez vardır ve bu bir metot gibi çalışır.
-        // Yani aslında constructor bir metot gibi çalışır aşağıya ctor yazıp çıkan public Customer()'ı yazmasak da
-        // her new'lemede default benzer kod arkada çalışır.Yazdıysak bizim yazdığımız çalışır,
-        // yazmadıysak aşağıdaki default constructor çalışır;
+        // Yani aslında constructor bir metot gibi çalışır, aşağıya ctor yazıp çıkan public Customer()'ı yazmasak da
+        // her new'lemede default benzer kod arkada çalışır.
+        // Yazdıysak bizim yazdığımız çalışır, yazmadıysak aşağıdaki default constructor çalışır;
 
 
         //  public Customer()
@@ -27,7 +27,7 @@
         // blogunun içine  Console.WriteLine("Yapıcı blok çalıştı"); yazarsak çalıştığını terminalden görebiliriz.
         // kısaca her new'leme yaptığımızda arkada default contructor bloğu çalışır.
 
-        // contructor'a 4 adet parametre ekleyince bu sefer aşağıdaki gibi bir hata alıyoruz. İçine parametre girmemizi istiyor.
+        // constructor'a 4 adet parametre ekleyince bu sefer aşağıdaki gibi bir hata alıyoruz. İçine parametre girmemizi istiyor.
         // peki hem aşağıdaki gibi hem de parametreli kullanmak isteseydik nasıl olurdu?
         // çözümü çok basit parametresiz default bir constructor daha açardık bir metot gibi.
         // not aşağıda süslü parantez öncesi normal parantez açabiliriz de açmayabiliriz de çok önemli değil.
