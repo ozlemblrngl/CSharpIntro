@@ -49,9 +49,9 @@
 
         Console.WriteLine(customer2.FirstName); 
 
-        // işte contructor'a sadece parametre eklersek  ve iç kod kısmını gerektiği gibi yazmaksak, bu sefer burayı çalıştıramayız.
-        // Sadece adını, soyadını vs isteyemeyiz.
-        // çünkü sadece parametre olarak hepsini verdik.
+        // işte contructor'a sadece parametre eklersek  ve iç kod kısmını gerektiği gibi yazmaksak, bu sefer bir üstteki kodu çalıştıramayız.
+        // Sadece adını, soyadını vs getirmesini isteyemeyiz.
+        // çünkü sadece parametreleri verdik.
         // bu kodu çalıştırabilmek için aşağıda parametreli constructor'ın içini aşağıdaki gibi doldurmamız lazım.
 
 
