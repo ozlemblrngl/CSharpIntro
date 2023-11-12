@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        //Generic'te içine hangi tipi verirsek o tipte çalışır
+        // Generic'te içine hangi tipi verirsek o tipte çalışır
 
         // List<> de bir class'tır
         List<string> sehirler = new List<string>();
@@ -24,8 +24,6 @@
         Console.WriteLine(sehirler2.Count); // buradaki Count aşağıda bizim kendi ürettiğimiz property'dir
 
 
-
-
         // T generic type i oluşturuyor burada ve ne tipte veri verirsek onu çalıştırıyor. 
 
         MyList<int> rakamlar = new MyList<int>();
@@ -36,7 +34,7 @@
 }
 
 
-class MyList<T> //Generic Class'tır burası
+class MyList<T> // Generic Class'tır burası
 {
     T[] _array;
     T[] _tempArray;
