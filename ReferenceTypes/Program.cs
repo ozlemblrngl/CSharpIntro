@@ -15,7 +15,7 @@
         Console.WriteLine("sayi 1: {0}", sayi1);
         Console.WriteLine("sayi 1: " + sayi1); // iki türlü de yazım doğrudur. 
 
-        // burada cevap 10 dur
+        // burada cevap 20 dur
 
 
         // arrays, classes, interfaces... bunlar reference types tır.
@@ -92,7 +92,7 @@
 
     class PersonManager
     {
-        public void Add(Person person) 
+        public void Add(Person person)
         // diyelim ki veri tabanına bir ekleme işlemi yapacağız.
         // Buraya Customer veya Employee gönderirsek sadece bu class'lardan biriyle çalışabiliriz.
         // Person'ı göndererek her iki yani Customer ve Employee ile çalışabiliriz.
