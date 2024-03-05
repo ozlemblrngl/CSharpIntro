@@ -15,7 +15,7 @@
         Console.WriteLine("sayi 1: {0}", sayi1);
         Console.WriteLine("sayi 1: " + sayi1); // iki türlü de yazım doğrudur. 
 
-        // burada cevap 20 dur
+        // burada cevap 20 dir
 
 
         // arrays, classes, interfaces... bunlar reference types tır.
